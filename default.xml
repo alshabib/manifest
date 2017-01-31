@@ -50,7 +50,7 @@
 <project path="component/chameleon" name="chameleon" groups="voltha"/>
 
 <project path="incubator/voltha" name="voltha" groups="incubation,voltha">
-    <linkfile src="chameleon" dest"component/chameleon"/>
+    <linkfile src="chameleon" dest="component/chameleon"/>
 </project>
 
 </manifest>
