@@ -47,10 +47,9 @@
 <project path="orchestration/xos-rest-gw" name="xos-rest-gw" groups="orchestration"/>
 <project path="orchestration/xos_libraries/ng-xos-lib" name="ng-xos-lib" groups="orchestration,libraries"/>
 
-<project path="component/chameleon" name="chameleon" groups="voltha"/>
-
-<project path="incubator/voltha" name="voltha" groups="incubation,voltha">
-    <linkfile src="chameleon" dest="component/chameleon"/>
+<project path="component/chameleon" name="chameleon" groups="voltha">
+    <linkfile src="." dest="incubator/voltha/chameleon"/>
 </project>
+<project path="incubator/voltha" name="voltha" groups="incubation,voltha"/>
 
 </manifest>
