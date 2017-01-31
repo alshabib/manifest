@@ -2,7 +2,7 @@
 <manifest>
 
   <remote  name="opencord"
-           fetch=".."
+           fetch="https://gerrit.opencord.org/"
            review="https://gerrit.opencord.org/"
            revision="master" />
   <default revision="master"
